@@ -18,16 +18,18 @@ sing len() count the number of words in the text file.
 ### Step 6: 
 In command prompt, initiate python followed by program name and text file name to get the output.
 ## PROGRAM:
+```
 To develop a Python program for getting the word count from the contents of a file using command line arguments.
 Develpoed By : Dhivya Shri.B
 RegisterNumber : 21002377
-
 import sys
 f1=open(sys.argv[1])
 data=f1.read()
 word=data.split()
 print("The word count is",len(word))
 f1.close()
+```
+
 ### OUTPUT:
 Text File "File1.txt":
 ![image](https://user-images.githubusercontent.com/94505585/154468732-0f53ca69-9eb7-436d-bfdf-559def95e7af.png)
